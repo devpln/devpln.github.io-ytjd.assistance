@@ -1,5 +1,6 @@
 <html>
   <head>
+    ＜meta http-equiv="Pragma" content="no-cache"＞
     <title>御剑辅助</title>
   </head>
   <body>
@@ -7,13 +8,4 @@
     <h6>1.添加账号</h6>
     <button type="button" id="refresh">刷新界面</button>
   </body>
-  <script type="text/javascript">
-    function onLuaCallback(str){
-        window.bridge.toast(str,20);
-    }
-    window.bridge.sendToLua("刷新界面");
-    document.document.getElementById("refresh").onclick=function(){
-        window.refresh();
-    }
-  </script>
 </html>
